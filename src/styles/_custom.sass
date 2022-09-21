@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    left: -10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 65%
+    right: 45%
 
 
 @keyframes float1
@@ -17,3 +17,111 @@
 
   100%
     transform: translateY(0px)
+
+.etiqueta
+  color: $black
+
+.BG01, .BGR01
+  background-color: #E5FDF3
+
+.BG02, .etiqueta
+  background-color: #FFF4D6
+
+.BG03
+  background-color: #F3F9FF
+
+.BG04
+  background-color: #F38E1E
+
+.BG05
+  background-color: #F3C035
+
+.BGR06, .BG06
+  background-color: #fff
+
+.BG07, .slyder-a__btn--sigt, .slyder-a__btn--atrs, .slyder-a__bullets__item--active
+  background-color: #6ACEAE
+
+.BG08
+  background-color: #C7EDE0
+
+.BGR09,  .cajon-b.color-acento-botones:before
+  background-color: #FFFAEF
+
+.BGR10
+  background-color: #FFD6DC
+  border: 2px solid #EA2440
+
+.BGR11
+  background-color: #FFE7D1
+  border: 2px solid #F38E1E
+
+.BGR12
+  background-color: #EBFFE6
+  border: 2px solid #5EBF4A
+
+.BG13
+  background-color: #F2FFFA
+
+.BG14
+  background-color: #2478D6
+
+.BG15
+  background-color: #1C64A4
+
+.BG16
+  background-color:#3D0A9E
+
+.BGR01, .BGR09, .BGR10, .BGR11, .BGR12
+  border-radius: 15px
+
+.BGR06
+  border-radius: 25px
+
+.tabs-a__tab
+  background-color: #F6F6F6
+
+.bloque-texto-g.color-acento-botones, 
+  background-color: #F9DF99
+
+.bloque-texto-g__img
+  width: 40%
+
+.bloque-texto-g__texto  
+  width: 70%
+
+.cajon-b:before
+  bottom: 0%
+  right: 80%
+
+.img01
+  top: -30%
+
+.img02
+  top: -40px
+
+.img01, .img02
+  position: relative
+
+.cajon.color-acento-botones:before
+  background-color: #F38E1E
+
+.slyder-a__btn--sigt
+  background-image: url("../assets/componentes/arrow-white.svg")
+  transform: rotate( 0deg ) !important
+
+.slyder-a__btn--atrs
+  background-image: url("../assets/componentes/arrow-white.svg")
+  transform: rotate( 180deg ) !important
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: $bp-max-xs)
+    width: 40px
+    height: 40px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    margin: 0 7px
+
+.tabla-a.color-acento-botones thead
+  border-color:#FFF4D6

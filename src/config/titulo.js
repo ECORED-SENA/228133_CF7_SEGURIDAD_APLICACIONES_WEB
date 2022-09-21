@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Incidentes y vulnerabilidades en seguridad orientada a aplicaciones web'
