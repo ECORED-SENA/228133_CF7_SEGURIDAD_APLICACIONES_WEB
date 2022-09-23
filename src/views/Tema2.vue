@@ -53,7 +53,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img07.jpg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-5(data-aos="fade-left")
-        p.mb-0 La informática forense es considerada la ciencia del futuro, la misma se realiza mediante la recopilación de log de auditoría del sistema o aplicación, o recuperar información borrada en los incidentes informáticos. En este proceso de incidentes se debe documentar y grabar los procedimientos e indicar los software forenses utilizados y procedimientos según los protocolos nacionales e internacionales
+        p.mb-0 La informática forense es considerada la ciencia del futuro, la misma se realiza mediante la recopilación de #[i log] de auditoría del sistema o aplicación, o recuperar información borrada en los incidentes informáticos. En este proceso de incidentes se debe documentar y grabar los procedimientos e indicar los #[i software] forenses utilizados y procedimientos según los protocolos nacionales e internacionales
 
     .row.justify-content-star.mb-4
       .col-md-7.order-md-1.order-2

@@ -11,12 +11,12 @@
 
     figure.mb-4(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Fnu6k-qrlGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-star.mb-4
       .col-md-7.order-md-1.order-2
         .cajon-b.color-acento-botones.p-3.mb-5
-          p Los informes se deben presentar claros, concisos y ordenados, los mismos deben ser exhaustivos respecto de las técnicas forenses utilizadas con conclusiones lógicas, bien argumentadas y en un lenguaje técnico, legal y explicativo para los demás
+          p Los informes se deben presentar claros, concisos y ordenados, los mismos deben ser exhaustivos respecto de las técnicas forenses utilizadas con conclusiones lógicas, bien argumentadas y en un lenguaje técnico, legal y explicativo para los demás.
           p.mb-0 Lo anterior mediante el ASVS, que es un marco de referencia de requisitos de seguridad, controles funcionales y los no funcionales que se requieren al diseñar, desplegar y testear aplicaciones web. Así como con el OWASP top 10 que es el documento principal para tener en cuenta sobre los riesgos de seguridad más destacados en aplicaciones web, como se indica en la tabla a continuación:
       .col-md-5.col-10.order-md-2.order-2.mb-md-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img01.png")
@@ -167,7 +167,7 @@
   .container.BG13.p-4.p-md-5px(data-aos="fade-right")
     .row.justify-content-center.mb-4
       .col-md-9.order-1
-        .h4 Un informe de auditoría debe contar con todas las evidencias recolectadas (logs, errores humanos detectados, irregularidades) y el procedimiento es el siguiente:
+        .h4 Un informe de auditoría debe contar con todas las evidencias recolectadas (#[i logs], errores humanos detectados, irregularidades) y el procedimiento es el siguiente:
       .col-md-6.order-md-2.order-3
         ul.lista-ul--color.ms-4
           li
@@ -195,7 +195,7 @@
         img(src='@/assets/curso/tema4/img10.png')
       
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p En los <span style="background-color:#BBEFDE; padding: 5px;"><b>informes de incidentes de seguridad en aplicaciones</b>,</span> se incluyen los ajustes de controles que hacen referencia a los planes de mejora; así se detienen y previenen futuros incidentes informáticos, ya que los mismos buscan establecer mecanismos de prevención y control. Como política general de ajuste de control se debe contemplar las actualizaciones de software o parches de seguridad en la herramienta de aplicaciones web cada vez que se detecte una. A continuación, se conocerá los niveles de planes de mejora y tablero de control, básico, intermedio y avanzado:
+    p En los <span style="background-color:#BBEFDE; padding: 5px;"><b>informes de incidentes de seguridad en aplicaciones</b>,</span> se incluyen los ajustes de controles que hacen referencia a los planes de mejora; así se detienen y previenen futuros incidentes informáticos, ya que los mismos buscan establecer mecanismos de prevención y control. Como política general de ajuste de control se debe contemplar las actualizaciones de #[i software] o parches de seguridad en la herramienta de aplicaciones web cada vez que se detecte una. A continuación, se conocerá los niveles de planes de mejora y tablero de control, básico, intermedio y avanzado:
   
     .row.justify-content-center.mb-4
       .col-md-3.col-8(data-aos="fade-right")
@@ -211,7 +211,7 @@
               | Contraseñas fuertes.
             li
               <i class="fas fa-check-circle" style="color:#7FD8B8"></i>
-              | Realizar backup frecuentes.
+              | Realizar #[i backup] frecuentes.
             li
               <i class="fas fa-check-circle" style="color:#7FD8B8"></i>
               | Actualizar app.
@@ -231,7 +231,7 @@
               | Actualizar personal.
             li
               <i class="fas fa-check-circle" style="color:#7FD8B8"></i>
-              | Utilizar firewall.
+              | Utilizar #[i firewall].
             li
               <i class="fas fa-check-circle" style="color:#7FD8B8"></i>
               p.mb-0 Proteger servidores web.
