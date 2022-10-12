@@ -9,7 +9,7 @@
     
     p La IOCE (Organización Internacional de Evidencia Computacional) estableció en el año 1999 cinco principios internacionales para tener en cuenta para el adecuado manejo de la evidencia digital. #[strong Se invita a saber de qué tratan]:
 
-    SlyderF.mb-5(columnas="col-md-4")
+    SlyderF.mb-5(columnas="col-lg-4")
       .BG06.pt-5.mx-2
         .row.justify-content-center.BG05
           .col-6
@@ -54,7 +54,7 @@
     p.mb-5 Además, toda evidencia digital es frágil y volátil, por lo que la misma se debe recolectar de manera adecuada para no ponerla en duda. A continuación, se relaciona el ciclo de la evidencia digital:
 
     .row.justify-content-center.mb-5
-      .col-md-6(data-aos="zoom-in")
+      .col-lg-6.col-md-10(data-aos="zoom-in")
         img(src="@/assets/curso/tema3/img06.svg")
     
     .row.justify-content-center.mb-4(data-aos="fade-right")

@@ -71,6 +71,12 @@
 
 .BG16
   background-color:#3D0A9E
+  
+.BG17
+  border-right: 3px solid #C9C9C9
+  @media (max-width: $bp-max-md)
+    border-right: 0
+    border-bottom: 3px solid #C9C9C9
 
 .BGR01, .BGR09, .BGR10, .BGR11, .BGR12
   border-radius: 15px
@@ -83,12 +89,6 @@
 
 .bloque-texto-g.color-acento-botones, 
   background-color: #F9DF99
-
-.bloque-texto-g__img
-  width: 40%
-
-.bloque-texto-g__texto  
-  width: 70%
 
 .cajon-b:before
   bottom: 0%
@@ -125,3 +125,7 @@
 
 .tabla-a.color-acento-botones thead
   border-color:#FFF4D6
+  
+.tabla-a th, .tabla-a td
+  @media (max-width: $bp-max-md)
+    font-size: 0.925em

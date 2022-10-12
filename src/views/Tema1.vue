@@ -19,9 +19,9 @@
       span Ciclos incidentes informáticos
     
     .row.justify-content-center.mb-4
-      .col-md-10.BG01.p-5(data-aos="fade-right")
+      .col-lg-10.BG01.p-5(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img02.svg")
-      .col-md-10.BG02.p-4(data-aos="fade-right")
+      .col-lg-10.BG02.p-4(data-aos="fade-right")
         p El ciclo siempre será repetitivo, el mismo puede controlarse o auditarse mediante políticas de seguridad de la información y que la organización tenga un departamento en atención frente a los diferentes incidentes de seguridad como un CSIRT como lo indica el Conpes 3701 de 2011; es necesario recordar que dentro los pilares de la información están:
         ul.lista-ul--color.ms-4
           li
@@ -37,7 +37,7 @@
     p.mb-5 Los incidentes informáticos de seguridad en aplicaciones web pueden darse mediante técnicas de ingeniera social o #[i hacking] no autorizados, #[i malware] y SQL #[i injection], como puede verse a continuación:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-md-8
+      .col-md-8.BG13.p-4
         img(src="@/assets/curso/tema1/img03.svg")
 
     p.mb-5 Se invita a conocer algunos conceptos importantes que identificará en el transcurso de este componente:
