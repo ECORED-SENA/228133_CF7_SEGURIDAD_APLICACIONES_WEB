@@ -77,7 +77,7 @@
 
     .row.justify-content-center.mb-4
       .col-md-7
-        table.mb-5(data-aos="zoom-in")
+        table.small-table.mb-5(data-aos="zoom-in")
           thead
             tr
               th(style="background-color: #6ACEAE; border-width: 5px; border-color: #fff").text-center.text-center Impacto

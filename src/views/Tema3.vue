@@ -9,7 +9,7 @@
     
     p La IOCE (Organización Internacional de Evidencia Computacional) estableció en el año 1999 cinco principios internacionales para tener en cuenta para el adecuado manejo de la evidencia digital. #[strong Se invita a saber de qué tratan]:
 
-    SlyderF.mb-5(columnas="col-lg-4")
+    SlyderF.mb-5(columnas="col-lg-4 col-md-6")
       .BG06.pt-5.mx-2
         .row.justify-content-center.BG05
           .col-6
