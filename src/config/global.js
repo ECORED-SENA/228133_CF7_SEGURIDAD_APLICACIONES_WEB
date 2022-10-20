@@ -117,7 +117,7 @@ export default {
   complementario: [
     {
       tema: '1. Incidentes informáticos',
-      referencia: 'ncibe. (s. f.). Gestión de riegos.',
+      referencia: 'Incibe. (s. f.). Gestión de riegos.',
       tipo: 'Documento',
       link:
         'https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_ciberseguridad_gestion_riesgos_metad.pdf',
@@ -133,7 +133,7 @@ export default {
     {
       tema: '3. Recolección de evidencia digital',
       referencia:
-        'Congreso de Colombia. (1999). Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones. http://www.secretariasenado.gov.co/senado/basedoc/ley_0527_1999.html',
+        'Congreso de Colombia. (1999). Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones.',
       tipo: 'Ley',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0527_1999.html',
@@ -143,7 +143,7 @@ export default {
     {
       termino: 'Autenticación',
       significado:
-        'acto de establecimiento o confirmación de algo como auténtico. La autenticación de un objeto puede significar la confirmación de su procedencia, mientras que la autenticación de una persona a menudo consiste en verificar su identidad. La autenticación depende de uno o varios factores desde el punto digital tenemos varios tipos de autenticación como las contraseñas, biométricos, token y otros. (educalingo, s.f.).',
+        'acto de establecimiento o confirmación de algo como auténtico. La autenticación de un objeto puede significar la confirmación de su procedencia, mientras que la autenticación de una persona a menudo consiste en verificar su identidad. La autenticación depende de uno o varios factores desde el punto digital tenemos varios tipos de autenticación como las contraseñas, biométricos, <em>token</em> y otros. (Educalingo, s.f.).',
     },
     {
       termino: 'Base de datos',
@@ -158,7 +158,7 @@ export default {
     {
       termino: '<em>Log</em>',
       significado:
-        'registro oficial de eventos durante un periodo de tiempo en particular. Para los profesionales en seguridad informática un Log es usado para registrar datos o información sobre quién, qué, cuándo, dónde y por qué (<em>who, what, when, where y why, W5</em>) un evento ocurre para un dispositivo en particular o aplicación. La mayoría de los logs son almacenados o desplegados en el formato estándar, el cual es un conjunto de caracteres para dispositivos comunes y aplicaciones. De esta forma, cada log generado por un dispositivo en particular puede ser leído y desplegado en otro diferente. A su vez la palabra log se relaciona con el término evidencia digital. Un tipo de evidencia física construida de campos magnéticos y pulsos electrónicos que pueden ser recolectados y analizados con herramientas y técnicas especiales, lo que implica la lectura del log y deja al descubierto la actividad registrada en el mismo (FGN, 2009).',
+        'registro oficial de eventos durante un periodo de tiempo en particular. Para los profesionales en seguridad informática un <em>Log</em> es usado para registrar datos o información sobre quién, qué, cuándo, dónde y por qué (<em>who, what, when, where y why, W5</em>) un evento ocurre para un dispositivo en particular o aplicación. La mayoría de los <em>logs</em> son almacenados o desplegados en el formato estándar, el cual es un conjunto de caracteres para dispositivos comunes y aplicaciones. De esta forma, cada <em>log</em> generado por un dispositivo en particular puede ser leído y desplegado en otro diferente. A su vez la palabra <em>log</em> se relaciona con el término evidencia digital. Un tipo de evidencia física construida de campos magnéticos y pulsos electrónicos que pueden ser recolectados y analizados con herramientas y técnicas especiales, lo que implica la lectura del <em>log</em> y deja al descubierto la actividad registrada en el mismo (FGN, 2009).',
     },
     {
       termino: 'Redes',
@@ -168,7 +168,7 @@ export default {
     {
       termino: 'Seguridad informática',
       significado:
-        'cualquier medida que impida la ejecución de operaciones no autorizadas sobre un sistema o red informática cuyos efectos puedan conllevar daños sobre la información, equipo o software (Gómez, 2006). Por su parte, Kissel (2012) la define como la protección de información y sistemas de información de acceso no autorizado.',
+        'cualquier medida que impida la ejecución de operaciones no autorizadas sobre un sistema o red informática cuyos efectos puedan conllevar daños sobre la información, equipo o <em>software</em> (Gómez, 2006). Por su parte, Kissel (2012) la define como la protección de información y sistemas de información de acceso no autorizado.',
     },
     {
       termino: 'Sistema de información',
@@ -184,7 +184,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Congreso de Colombia. (2009). Ley 1273 de 2009. por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado denominado "de la protección de la información y de los datos" y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones.',
+        'Congreso de Colombia. (2009). Ley 1273 de 2009. Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado denominado "de la protección de la información y de los datos" y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones.',
       link:
         'https://www.sic.gov.co/recursos_user/documentos/normatividad/Ley_1273_2009.pdf',
     },
@@ -192,7 +192,7 @@ export default {
       referencia:
         'Congreso de Colombia. (2012). Ley Estatutaria 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales.',
       link:
-        'https://www.defensoria.gov.co/public/Normograma%202013_html/Normas/Ley_1581_2012.pdf',
+        'https://www.imsalud.gov.co/web/sin-categoria/abc-ley-1581-de-2012-proteccion-de-datos-personales/',
     },
     {
       referencia: 'DNP. (2011). Documento Conpes 3701.',
@@ -255,7 +255,7 @@ export default {
         nombre: 'Cesar Antonio Villamizar Núñez',
         cargo: 'Experto Temático',
         centro:
-          'Región Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+          'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
       },
       {
         nombre: 'Hernando José Peña Hidalgo',

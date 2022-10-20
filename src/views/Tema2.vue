@@ -69,7 +69,7 @@
             img(src="@/assets/curso/tema2/img09.png")
       .col-md-7
         .cajon-b.color-acento-botones.p-3
-          p.mb-0 En Colombia, existe la unidad de delitos informáticos de la Fiscalía General de la Nación y el CAI virtual de la DIJIN unidad de incidentes informáticos. Cuando una aplicación web es vulnerada se debe identificar por medio de la Informática forense de dónde provino el ataque, cuál fue la técnica utilizada y revisar las posibles vulnerabilidades de la herramienta para tomar los correctivos de esta.
+          p.mb-0 En Colombia, existe la unidad de delitos informáticos de la Fiscalía General de la Nación y el CAI virtual de la DIJIN unidad de incidentes informáticos. Cuando una aplicación #[i web] es vulnerada se debe identificar por medio de la Informática forense de dónde provino el ataque, cuál fue la técnica utilizada y revisar las posibles vulnerabilidades de la herramienta para tomar los correctivos de esta.
     
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -128,7 +128,7 @@
       .col-lg-2.col-md-4.col-8.order-md-2.order-1.BG04.p-5(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img11.png")
     
-    p Dentro de la lista de chequeo se pueden realizar preguntas y reformular las mismas conforme a la organización, frente al manejo y operación de las aplicaciones web donde se marca solo un ítem entre sí o no y una observación general en caso de justificar, la misma del ítem seleccionado; de igual forma, se pueden agregar más aspectos a evaluar dependido el análisis o tipo de auditoría o control que requiere realizar el profesional. A continuación se presenta dicho formato:
+    p Dentro de la lista de chequeo se pueden realizar preguntas y reformular las mismas conforme a la organización, frente al manejo y operación de las aplicaciones #[i web] donde se marca solo un ítem entre sí o no y una observación general en caso de justificar, la misma del ítem seleccionado; de igual forma, se pueden agregar más aspectos a evaluar dependido el análisis o tipo de auditoría o control que requiere realizar el profesional. A continuación se presenta dicho formato:
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-md-10.tarjeta.color-secundario.p-4

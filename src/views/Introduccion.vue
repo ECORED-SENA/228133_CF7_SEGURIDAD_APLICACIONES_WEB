@@ -10,8 +10,8 @@
       h1 Introducción
     
     p.mb-5 Le damos la bienvenida al componente formativo denominado 
-      span.etiqueta “#[strong Incidentes y vulnerabilidades en seguridad orientada a aplicaciones web]”
-      | , el cual hace parte del programa de formación técnico en Seguridad en aplicaciones web, para lo cual se invita a observar el siguiente video:
+      span.etiqueta “#[strong Incidentes y vulnerabilidades en seguridad orientada a aplicaciones web]”,
+      |  el cual hace parte del programa de formación técnico en Seguridad en aplicaciones web, para lo cual se invita a observar el siguiente video:
 
     figure(data-aos="zoom-in")
       .video

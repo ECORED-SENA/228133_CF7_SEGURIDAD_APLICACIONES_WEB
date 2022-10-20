@@ -17,12 +17,12 @@
       .col-md-7.order-md-1.order-2
         .cajon-b.color-acento-botones.p-3
           p Los informes se deben presentar claros, concisos y ordenados, los mismos deben ser exhaustivos respecto de las técnicas forenses utilizadas con conclusiones lógicas, bien argumentadas y en un lenguaje técnico, legal y explicativo para los demás.
-          p.mb-0 #[strong Lo anterior mediante el ASVS], que es un marco de referencia de requisitos de seguridad, controles funcionales y los no funcionales que se requieren al diseñar, desplegar y testear aplicaciones web. Así como con el OWASP top 10 que es el documento principal para tener en cuenta sobre los riesgos de seguridad más destacados en aplicaciones web, como se indica en la tabla a continuación:
+          p.mb-0 #[strong Lo anterior mediante el ASVS], que es un marco de referencia de requisitos de seguridad, controles funcionales y los no funcionales que se requieren al diseñar, desplegar y testear aplicaciones #[i web]. Así como con el OWASP top 10 que es el documento principal para tener en cuenta sobre los riesgos de seguridad más destacados en aplicaciones #[i web], como se indica en la tabla a continuación:
       .col-md-5.col-10.order-md-2.order-2.mb-md-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img01.png")
 
     .titulo-sexto.color-acento-contenido.my-4
-      h5 Figura 3
+      h5 Tabla 1
       span Metodología de clasificación de riesgo
 
     .tabla-a.color-acento-botones.mb-5
@@ -37,22 +37,22 @@
             th(style="background-color: #FFF4D6;").text-center Impacto de Negocio
         tbody
           tr
-            th(td rowspan="3") Específico de la aplicación.
+            th(td rowspan="3" style="border-bottom: 3px solid #D8BEC4") Específico de la aplicación.
             td(style="background-color: #E5FFF7;") 3 Fácil.
             td(style="background-color: #E5FFF7;") 3 Difundido.
             td(style="background-color: #E5FFF7;") 3 Fácil.
             td(style="background-color: #E5FFF7;") 3 Severo.
-            th(td rowspan="3") Específico del negocio.
+            th(td rowspan="3" style="border-bottom: 3px solid #D8BEC4") Específico del negocio.
           tr
             td(style="background-color: #FFFAEF;") 2 Promedio.
             td(style="background-color: #FFFAEF;") 2 Común.
             td(style="background-color: #FFFAEF;") 2 Promedio.
             td(style="background-color: #FFFAEF;") 2 Moderado.
           tr
-            th(style="background-color: #F3C035;") 1 Difícil.
-            th(style="background-color: #F3C035;") 1 Poco común.
-            th(style="background-color: #F3C035;") 1 Difícil.
-            th(style="background-color: #F3C035;") 1 Mínimo.
+            td(style="background-color: #F3C035; border-bottom: 3px solid #D8BEC4") 1 Difícil.
+            td(style="background-color: #F3C035; border-bottom: 3px solid #D8BEC4") 1 Poco común.
+            td(style="background-color: #F3C035; border-bottom: 3px solid #D8BEC4") 1 Difícil.
+            td(style="background-color: #F3C035; border-bottom: 3px solid #D8BEC4") 1 Mínimo.
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-md-10.tarjeta.color-secundario.p-4
@@ -72,7 +72,7 @@
     p Según las tablas anteriores y los niveles de riesgos detectados por cada ítem de análisis en el informe, se debe especificar el tipo de amenaza según la aplicación, así:
 
     .titulo-sexto.color-acento-contenido.my-4(data-aos="fade-right")
-      h5 Figura 5
+      h5 Tabla 2
       span Impacto vs. valoración
 
     .row.justify-content-center.mb-4
@@ -111,36 +111,36 @@
           .col-md-6.order-md-1.order-2
             .h4 Impacto catastrófico y riesgo alto
             p La descripción es #[strong extremadamente dañina], en la misma en el informe se pone el valor de pérdidas superiores a 1.500 SMLV, la afectación de la imagen corporativa a nivel local, regional, nacional e internacional. 
-            p Si llega a tener sanciones por entes de control como Fiscalía, Procuraduría y Contraloría, y también analizar si hay graves daños en la infraestructura y aplicaciones web de la organización.
+            p Si llega a tener sanciones por entes de control como Fiscalía, Procuraduría y Contraloría, y también analizar si hay graves daños en la infraestructura y aplicaciones #[i web] de la organización.
           .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema4/img02.svg")
         .row.justify-content-center
           .col-md-6.order-md-1.order-2
             .h4 Impacto mayor y riesgo alto
-            p Sería una descripción de #[strong tipo dañino] si existen pérdidas económicas entre 1.000 y 1.499 SMLV, si la afectación de la imagen corporativa es a nivel local, regional y nacional. Si llega a tener sanciones por entes de control como Fiscalía, Procuraduría y Contraloría y también analizar si hay graves daños en la infraestructura y aplicaciones web de la organización.
+            p Sería una descripción de #[strong tipo dañino] si existen pérdidas económicas entre 1.000 y 1.499 SMLV, si la afectación de la imagen corporativa es a nivel local, regional y nacional. Si llega a tener sanciones por entes de control como Fiscalía, Procuraduría y Contraloría y también analizar si hay graves daños en la infraestructura y aplicaciones #[i web] de la organización.
           .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema4/img03.svg")
         .row.justify-content-center
           .col-md-6.order-md-1.order-2
             .h4 Impacto moderado y riesgo medio
-            p Sería una descripción de #[strong tipo moderado] si existen pérdidas económicas entre 600 y 999 SMLV, si la afectación de la imagen corporativa es a nivel local. Si llega a tener sanciones a nivel de la oficina de control interno o jurídico de la entidad, y también analizar si hay daños parciales en la infraestructura y aplicaciones web de la organización.
+            p Sería una descripción de #[strong tipo moderado] si existen pérdidas económicas entre 600 y 999 SMLV, si la afectación de la imagen corporativa es a nivel local. Si llega a tener sanciones a nivel de la oficina de control interno o jurídico de la entidad, y también analizar si hay daños parciales en la infraestructura y aplicaciones #[i web] de la organización.
           .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema4/img04.svg")
         .row.justify-content-center
           .col-md-6.order-md-1.order-2
             .h4 Impacto es menor y el riesgo bajo
-            p Sería una descripción de #[strong tipo menor] si existen pérdidas económicas entre 400 y 599 SMLV, si la afectación de la imagen corporativa es a nivel organizacional. Si llega a tener sanciones a nivel procesos, y también analizar si hay daños pequeños en la infraestructura y aplicaciones web de la organización.
+            p Sería una descripción de #[strong tipo menor] si existen pérdidas económicas entre 400 y 599 SMLV, si la afectación de la imagen corporativa es a nivel organizacional. Si llega a tener sanciones a nivel procesos, y también analizar si hay daños pequeños en la infraestructura y aplicaciones #[i web] de la organización.
           .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema4/img05.svg")
         .row.justify-content-center
           .col-md-6.order-md-1.order-2
             .h4 Impacto es insignificante y el riesgo bajo
-            p Sería una descripción de tipo #[strong ligeramente dañino] si existen pérdidas económicas menores a 399 SMLV, si la afectación de la imagen corporativa es a nivel de área, si llega a tener sanciones a nivel área, y también analizar si hay daños pequeños en la infraestructura y aplicaciones web de la organización. Hay que revisar si se tiene llamados de atención a nivel grupo.
+            p Sería una descripción de tipo #[strong ligeramente dañino] si existen pérdidas económicas menores a 399 SMLV, si la afectación de la imagen corporativa es a nivel de área, si llega a tener sanciones a nivel área, y también analizar si hay daños pequeños en la infraestructura y aplicaciones #[i web] de la organización. Hay que revisar si se tiene llamados de atención a nivel grupo.
           .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema4/img06.svg")
     
-    p En la organización, y en este caso con las aplicaciones web, pueden ocurrir varios impactos y diferentes valoraciones que deben ser documentados y analizados en el informe, y de igual manera establecer un plan de mejora y control frente a incidentes informáticos. 
-    p En cuanto a la urgencia frente a incidentes informáticos en aplicaciones web, se tienen de la siguiente manera:
+    p En la organización, y en este caso con las aplicaciones #[i web], pueden ocurrir varios impactos y diferentes valoraciones que deben ser documentados y analizados en el informe, y de igual manera establecer un plan de mejora y control frente a incidentes informáticos. 
+    p En cuanto a la urgencia frente a incidentes informáticos en aplicaciones #[i web], se tienen de la siguiente manera:
     
     .row.justify-content-center.mb-4
       .col-md-10.BGR09.p-4
@@ -162,7 +162,7 @@
               .BGR12.p-4.pt-5
                 p.mt-5.mb-0 El incidente de seguridad debe atenderse entre 0 y 1.440 minutos.
 
-    p Estos tiempos de respuestas también deben de ser tenidos en cuenta en la realización del informe, tener en cuenta los tiempos mínimos y máximo según el incidente informático en la aplicación web. Es importante establecer políticas de control en las aplicaciones web; la ISO 27001 juega un papel fundamental en ese plan de mejora.
+    p Estos tiempos de respuestas también deben de ser tenidos en cuenta en la realización del informe, tener en cuenta los tiempos mínimos y máximo según el incidente informático en la aplicación #[i web]. Es importante establecer políticas de control en las aplicaciones #[i web]; la ISO 27001 juega un papel fundamental en ese plan de mejora.
 
   .container.BG13.p-4.p-md-5px(data-aos="fade-right")
     .row.justify-content-center.mb-4
@@ -195,7 +195,7 @@
         img(src='@/assets/curso/tema4/img10.png')
       
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p En los <span style="background-color:#BBEFDE; padding: 5px;"><b>informes de incidentes de seguridad en aplicaciones</b>,</span> se incluyen los ajustes de controles que hacen referencia a los planes de mejora; así se detienen y previenen futuros incidentes informáticos, ya que los mismos buscan establecer mecanismos de prevención y control. Como política general de ajuste de control se debe contemplar las actualizaciones de #[i software] o parches de seguridad en la herramienta de aplicaciones web cada vez que se detecte una. A continuación, se conocerá los niveles de planes de mejora y tablero de control, básico, intermedio y avanzado:
+    p En los <span style="background-color:#BBEFDE; padding: 5px;"><b>informes de incidentes de seguridad en aplicaciones</b>,</span> se incluyen los ajustes de controles que hacen referencia a los planes de mejora; así se detienen y previenen futuros incidentes informáticos, ya que los mismos buscan establecer mecanismos de prevención y control. Como política general de ajuste de control se debe contemplar las actualizaciones de #[i software] o parches de seguridad en la herramienta de aplicaciones #[i web] cada vez que se detecte una. A continuación, se conocerá los niveles de planes de mejora y tablero de control, básico, intermedio y avanzado:
   
     .row.justify-content-center.mb-4
       .col-lg-3.col-8(data-aos="fade-right")
@@ -234,7 +234,7 @@
               p.mb-0 Utilizar #[i firewall].
             li
               <i class="fas fa-check-circle" style="color:#7FD8B8"></i>
-              p.mb-0 Proteger servidores web.
+              p.mb-0 Proteger servidores #[i web].
       .col-lg-3.col-8(data-aos="fade-left")
         .BG16.p-5
           .h4.text-white.text-center.mb-0 Avanzado
@@ -248,9 +248,9 @@
               | Actualizar tableros de control de amenazas y riesgos.
             li
               <i class="fas fa-check-circle" style="color:#7FD8B8"></i>
-              | Tener configuraciones avanzadas de seguridad web.
+              p.mb-0 Tener configuraciones avanzadas de seguridad #[i web].
 
-    p Los planes de mejora son las conclusiones que toda auditoría deja por defecto tomando correctivos para que los riesgos y amenazas no vuelvan a la aplicación web, con este tipo de control y seguimiento se previenen riesgos y amenazas.
+    p Los planes de mejora son las conclusiones que toda auditoría deja por defecto tomando correctivos para que los riesgos y amenazas no vuelvan a la aplicación #[i web], con este tipo de control y seguimiento se previenen riesgos y amenazas.
     
 </template>
 

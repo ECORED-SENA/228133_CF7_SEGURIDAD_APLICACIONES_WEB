@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8.order-md-1.order-2
-        p Dentro del tratamiento de incidentes de seguridad digital en las aplicaciones web, parte de la normatividad la establece el Ministerio de Tecnologías de Información y las Comunicaciones de Colombia mediante la Resolución 500 del año 2021 Por la cual se establecen los lineamientos y estándares para la estrategia de seguridad digital y se adopta el modelo de seguridad y privacidad como habilitador de la política de gobierno digital”; por ello se debe recordar que al existir incidentes informáticos el Código Penal establece sanciones legales mediante la #[strong Ley 1273 de 2009].
+        p Dentro del tratamiento de incidentes de seguridad digital en las aplicaciones #[i web], parte de la normatividad la establece el Ministerio de Tecnologías de Información y las Comunicaciones de Colombia mediante la Resolución 500 del año 2021 Por la cual se establecen los lineamientos y estándares para la estrategia de seguridad digital y se adopta el modelo de seguridad y privacidad como habilitador de la política de gobierno digital”; por ello se debe recordar que al existir incidentes informáticos el Código Penal establece sanciones legales mediante la #[strong Ley 1273 de 2009].
         p.mb-0 Igualmente, hay que tener en cuenta los marcos de referencia ante un incidente de seguridad de la información guiándose con la #[strong ISO 27035] que es la norma de gestión de incidentes de seguridad de la información, el ciclo de vida de la gestión y contradicción de un incidente informático, así:
       .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img01.png")
@@ -34,7 +34,7 @@
             <i class="fas fa-check-circle" style="color:#F38E1E"></i>
             p.mb-0 Disponibilidad.  
 
-    p.mb-5 Los incidentes informáticos de seguridad en aplicaciones web pueden darse mediante técnicas de ingeniera social o #[i hacking] no autorizados, #[i malware] y SQL #[i injection], como puede verse a continuación:
+    p.mb-5 Los incidentes informáticos de seguridad en aplicaciones #[i web] pueden darse mediante técnicas de ingeniera social o #[i hacking] no autorizados, #[i malware] y SQL #[i injection], como puede verse a continuación:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-md-8.BG13.p-4
@@ -43,7 +43,7 @@
     p.mb-5 Se invita a conocer algunos conceptos importantes que identificará en el transcurso de este componente:
 
     TabsA.color-acento-contenido.mb-5
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="<em>Malware]</em>")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="<em>Malware</em>")
         .row.justify-content-center
           .col-md-8.order-md-1.order-2
             h4 #[i Malware]

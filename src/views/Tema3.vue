@@ -61,7 +61,7 @@
       .col-md-8.cajon.color-acento-botones.p-4
         p.mb-0 Cuando se habla de adquisición en el análisis forense, se hace con base en los parámetros del formato cadena de custodia quien halla, recolecta y embala la misma; la preservación nos indica la técnica con la herramienta de #[i software] forense utilizada para mantener la idoneidad de esta.
 
-    p El análisis es aquel que se realiza en el laboratorio forense para realizar procedimientos en caso de borrado de navegación o al sistema de información, en la documentación debe ir explicado todo desde el inicio: características informáticas del #[i software], método utilizado identificación del perito informático, tamaño de la información, nombre y versiones del #[i software] forense usado. La presentación es la terminación de ese informe junto con la evidencia digital recolectada cumpliendo los procedimientos forenses, y las conclusiones son con base en lo analizado y lo que no se pudo recuperar.
+    p El análisis es aquel que se realiza en el laboratorio forense para realizar procedimientos en caso de borrado de navegación o al sistema de información, en la documentación debe ir explicado todo desde el inicio: características informáticas del #[i software], método utilizado, identificación del perito informático, tamaño de la información, nombre y versiones del #[i software] forense usado. La presentación es la terminación de ese informe junto con la evidencia digital recolectada cumpliendo los procedimientos forenses, y las conclusiones son con base en lo analizado y lo que no se pudo recuperar.
 
 </template>
 
